@@ -1,6 +1,6 @@
 sudo docker run --rm \
 		-it  \
-		--name python-docker\
+		--name pydock\
 		--hostname pydock\
 		-v /home/pine/fluent-python:/usr/src/app \
 		alpha:latest \
