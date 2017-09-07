@@ -2,10 +2,12 @@
 from cmath import sqrt
 
 class Quadratic(object):
+
 	def __init__(self,a,b,c):
 		self.a = a + 0j
 		self.b = b
 		self.c = c
+
 	def formula(self):
 		ps = (-self.b + sqrt(self.b**2-4*self.a*self.c))/2*self.a
 		ng = (-self.b - sqrt(self.b**2-4*self.a*self.c))/2*self.a
